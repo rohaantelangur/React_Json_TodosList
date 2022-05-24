@@ -1,0 +1,62 @@
+body{
+  background-color: #414141;
+
+}
+
+.App {
+  text-align: center;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+  margin: 20px auto;
+  height: 500px;
+  overflow: auto;
+  background-image: url("https://picsum.photos/500/500");
+  background-size: cover;
+  background-color: #000000;
+  background-repeat: no-repeat;
+}
+
+
+.shwocom{
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  width: 81%;
+  margin: 10px auto;
+  padding: 5px;
+  font-weight: 600;
+  /* color: rgb(88, 88, 88); */
+}
+
+.TodoItem {
+  margin: 10px auto;
+  width: 80%;
+  /* height: 20px; */
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.inputtodos{
+  width: 75%;
+  height: 28px;
+  margin-top: 15px;
+  padding: 5px;
+  border: 0;
+
+
+}
+.addbtn{
+  width: 8%;
+  height: 38px;
+  margin-left: 5px;
+  border: 0;
+}
